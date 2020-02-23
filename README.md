@@ -1,7 +1,7 @@
 # Project: Custom Calculator
 
 ### tl;dr
-You will create a python program that does a complex calculation based on information provided by the user. Then you'll record a short narrated video of your code and program. [Click here to see an example.]()
+You will create a python program that does a complex calculation based on information provided by the user. Then you'll record a short narrated video of your code and program.
 
 ### The details...
 Your calculator will not be like any ole calculator. Your calculator will use a unique custom formula that you come up with to tell the user something interesting that they would not have otherwise thought of.
@@ -70,7 +70,7 @@ First I need to ask you a few questions:
 ```
 
 ### Walkthrough
-1. Grab a blank sheet of scrap paper and make a table like you did in Algebra class to figure out a formula (function) that makes sense. It might look like this:
+1. Grab a blank sheet of scrap paper and make a table like you may have done in Math class to figure out a formula that makes sense. _This might be the hardest part of this project! Don't hesitate to ask for suggestions and help._ You paper might look something like this:
 ```
 I think the temp goes down 1 degree for every 1 windspeed, and goes up 1 degree for every 5% sun.
 
@@ -85,7 +85,7 @@ These seem reasonable. So my formula will be something like:
  
  ```
  
-1. Copy/paste your code from your lunch_order.py program into a new file called calc.py. Then save and run calc.py to be sure it works.
+2. Copy/paste your code from your lunch_order.py program into a new file called calc.py. Then save and run calc.py to be sure it works.
 2. Start changing calc.py to fit the needs of your new program. _Feel free to study the code in the example linked above to help you structure your program._
 3. Your new program should start by printing a box with a title. You can go basic like in the example above, or use other symbols to make it a bit fancier.
 4. Update variable names or create new variables with good names.
@@ -96,7 +96,7 @@ These seem reasonable. So my formula will be something like:
 if (sun > 100):
    print( str(sun) + "% sun? No such thing! Exiting ..." )
    exit()
- ```
+```
 
 6. Test your code often!
 7. If you're going for the distinguished option (and yes, you should!), show your program to a fellow student from the class your calculation relates to (that fellow student must be enrolled in that class and not enrolled in any Computer Programming class with Mr. Smith this year -- we're going for feedback from a real user who is not a programmer).
