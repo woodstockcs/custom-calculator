@@ -72,10 +72,11 @@ First I need to ask you a few questions:
 ### Walkthrough
 1. Fill out the "Designing Your Formula" worksheet.
 1. Copy/paste your code from your lunch_order.py program into a new file called calc.py. Then save and run calc.py to be sure it works.
-2. Start changing calc.py to fit the needs of your new program.
+2. Start changing calc.py to fit the needs of your new program. _Feel free to study the code in the example linked above to help you structure your program._
 3. Your new program should start by printing a box with a title. You can go basic like in the example above, or use other symbols to make it a bit fancier.
 4. Update variable names or create new variables with good names.
 5. Be sure you're using int() and float() as needed.
+1. Write your calculation and output. 
 6. Test your code often!
 7. If you're going for the distinguished option (and yes, you should!), show your program to a fellow student from the class your calculation relates to (that fellow student must be enrolled in that class and not enrolled in any Computer Programming class with Mr. Smith this year -- we're going for feedback from a real user who is not a programmer).
 
