@@ -23,7 +23,7 @@ First I need to ask you a few questions:
 
  1. What's the reported temperature? ___  (user gives input)
  2. What's the wind speed? ___  (user gives input)
- 3. What's the percent cloud cover? ___  (user gives input)
+ 3. What's the percent sunshine? ___  (user gives input)
 
 * OK! Even though your app says it's ___ degrees, it'll feel more like ___.
 
@@ -70,13 +70,34 @@ First I need to ask you a few questions:
 ```
 
 ### Walkthrough
-1. Fill out the "Designing Your Formula" worksheet.
+1. Grab a blank sheet of scrap paper and make a table like you did in Algebra class to figure out a formula (function) that makes sense. It might look like this:
+```
+I think the temp goes down 1 degree for every 1 windspeed, and goes up 1 degree for every 5% sun.
+
+temp | wind | % sun | feels like
+-----------------------------------
+30   | 4    | 50    | 36
+30   | 50   | 0     | -20
+30   | 0    | 100   | 50
+
+These seem reasonable. So my formula will be something like:
+ feels = temp - wind + (sun / 10)
+ 
+ ```
+ 
 1. Copy/paste your code from your lunch_order.py program into a new file called calc.py. Then save and run calc.py to be sure it works.
 2. Start changing calc.py to fit the needs of your new program. _Feel free to study the code in the example linked above to help you structure your program._
 3. Your new program should start by printing a box with a title. You can go basic like in the example above, or use other symbols to make it a bit fancier.
 4. Update variable names or create new variables with good names.
-5. Be sure you're using int() and float() as needed.
+5. Be sure you're using int() and float() and str() as needed.
 1. Write your calculation and output. 
+1. Add some if statements that exit the program if the user provides an unreasonable value. Like this:
+```
+if (sun > 100):
+   print( str(sun) + "% sun? No such thing! Exiting ..." )
+   exit()
+ ```
+
 6. Test your code often!
 7. If you're going for the distinguished option (and yes, you should!), show your program to a fellow student from the class your calculation relates to (that fellow student must be enrolled in that class and not enrolled in any Computer Programming class with Mr. Smith this year -- we're going for feedback from a real user who is not a programmer).
 
