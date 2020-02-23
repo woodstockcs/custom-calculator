@@ -86,7 +86,7 @@ These seem reasonable. So my formula will be something like:
  ```
  
 2. Copy/paste your code from your lunch_order.py program into a new file called calc.py. Then save and run calc.py to be sure it works.
-2. Start changing calc.py to fit the needs of your new program. _Feel free to study the code in the example linked above to help you structure your program._
+2. Start changing calc.py to fit the needs of your new program.
 3. Your new program should start by printing a box with a title. You can go basic like in the example above, or use other symbols to make it a bit fancier.
 4. Update variable names or create new variables with good names.
 5. Be sure you're using int() and float() and str() as needed.
