@@ -101,6 +101,11 @@ if (sun > 100):
 6. Test your code often!
 7. If you're going for the distinguished option (and yes, you should!), show your program to a fellow student from the class your calculation relates to (that fellow student must be enrolled in that class and not enrolled in any Computer Programming class with Mr. Smith this year -- we're going for feedback from a real user who is not a programmer).
 
+### Optional STRETCH Ideas
+If you have extra time and are interested, you could extend your calculator in different ways. Think about:
+- make a suite of calculators and a menu at the start so the user can choose which calculation they want to do
+- add multiple-choice options to the questions you ask users, so instead of entering a number they enter a or b or c or d, then you perform the calculation in a different way based on their response
+- add some custom ascii art
 
 ### How to Submit
 Go to this assignment in google classroom and open the Mastery Check attachment. Follow the instructions in there, and then press 'turn in'.
