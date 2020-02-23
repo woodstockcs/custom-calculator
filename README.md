@@ -51,7 +51,7 @@ First I need to ask you a few questions:
 
 ### Checklist for a score of Proficient
 * You have a working program.
-* Your program starts by printing a title in a box and a description of what it does and who it is for.
+* Your program starts by printing a title in a box and a description of what it does and which class it is for.
 * Your input prompts and outputs are formatted cleanly.
 * Your formula takes into account at least three inputs from the user.
 * You have at least one if statement for each user input that exits the program if the user provides an unreasonable value.
