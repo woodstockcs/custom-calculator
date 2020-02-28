@@ -6,7 +6,7 @@ You will create a python program that does a complex calculation based on inform
 ### The details...
 Your calculator will not be like any ole calculator. Your calculator will use a unique custom formula that you come up with to tell the user something interesting that they would not have otherwise thought of.
 
-For example: your experience of the temperature outside is not *really* what the weather app says it is. Imagine two scenarios:
+Here's one example: your experience of the temperature outside is not *really* what the weather app says it is. Imagine two scenarios:
 1. the weather app says it's 30 degrees outside. It's also windy and cloudy and damp. You step outside and think "wow, it feels more like -10!"
 2. the weather app says it's 30 degrees outside. But it's calm and sunny and dry. You step outside and think "hey, feels like 50!"
 So you could make a "feels like" calculator, like this:
