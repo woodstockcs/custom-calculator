@@ -1,9 +1,11 @@
 # Project: Custom Calculator
 
-### tl;dr
+### Instructions
+
+#### tl;dr
 You will create a python program that does a complex calculation based on information provided by the user. Then you'll record a short narrated video of your code and program.
 
-### The details...
+#### The details...
 Your calculator will not be like any ole calculator. Your calculator will use a unique custom formula that you come up with to tell the user something interesting that they would not have otherwise thought of.
 
 Here's one example: your experience of the temperature outside is not *really* what the weather app says it is. Imagine two scenarios:
@@ -49,27 +51,7 @@ First I need to ask you a few questions:
 ~/unit_5/ $ _    (program exited)
 ```
 
-### Checklist for a score of Proficient
-* You have a working program.
-* Your program starts by printing a title in a box and a description of what it does and which class it is for.
-* Your input prompts and outputs are formatted cleanly.
-* Your formula takes into account at least three inputs from the user.
-* You have at least one if statement for each user input that exits the program if the user provides an unreasonable value.
-* Your calculator is relevant to a topic you are studying in another class, and is interesting to your fellow students in that class.
-
-
-### Checklist for Distinguished Option
-* You showed your program to a fellow student enrolled in the class your calculator relates to, and not enrolled in computer programming.
-* You solicit at least one piece of usable feedback from that classmate and incorporate that feedback into your program.
-* In a comment at the top of your program you thank that classmate by name and describe the update that is a result of their feedback, like this:
-```
- 1   # Feels Like Calculator
- 2   # by Andy Smith, March 4, 2020
- 3   # v1.4 includes updated formula to give sunshine more weight
- 4   # thanks to Liz Warren for this feedback
-```
-
-### Walkthrough
+#### Walkthrough
 1. Grab a blank sheet of scrap paper and make a table like you may have done in Math class to figure out a formula that makes sense. _This might be the hardest part of this project! Don't hesitate to ask for suggestions and help._ You paper might look something like this:
 ```
 I think the temp goes down 1 degree for every 1 windspeed, and goes up 1 degree for every 5% sun.
@@ -101,12 +83,38 @@ if (sun > 100):
 6. Test your code often!
 7. If you're going for the distinguished option (and yes, you should!), show your program to a fellow student from the class your calculation relates to (that fellow student must be enrolled in that class and not enrolled in any Computer Programming class with Mr. Smith this year -- we're going for feedback from a real user who is not a programmer).
 
-### Optional STRETCH Ideas
+#### Optional STRETCH Ideas
 If you have extra time and are interested, you could extend your calculator in different ways. Think about:
 - make a suite of calculators and a menu at the start so the user can choose which calculation they want to do
 - add multiple-choice options to the questions you ask users, so instead of entering a number they enter a or b or c or d, then you perform the calculation in a different way based on their response
 - add some custom ascii art
 
-### How to Submit
+#### How to Submit
 Go to this assignment in google classroom and open the Mastery Check attachment. Follow the instructions in there, and then press 'turn in'.
+
+### Scoring
+
+#### Checklist for a score of Proficient
+* You have a working program.
+* Your program starts by printing a title in a box and a description of what it does and which class it is for.
+* Your input prompts and outputs are formatted cleanly.
+* Your formula takes into account at least three inputs from the user.
+* You have at least one if statement for each user input that exits the program if the user provides an unreasonable value.
+* Your calculator is relevant to a topic you are studying in another class, and is interesting to your fellow students in that class.
+
+
+#### Checklist for Distinguished Option
+* You showed your program to a fellow student enrolled in the class your calculator relates to, and not enrolled in computer programming.
+* You solicit at least one piece of usable feedback from that classmate and incorporate that feedback into your program.
+* In a comment at the top of your program you thank that classmate by name and describe the update that is a result of their feedback, like this:
+```
+ 1   # Feels Like Calculator
+ 2   # by Andy Smith, March 4, 2020
+ 3   # v1.4 includes updated formula to give sunshine more weight
+ 4   # thanks to Liz Sanderson for this feedback
+```
+
+#### Anchor Standard
+This project allows students to demonstrate mastery in Anchor Standard 3: Creating Computational Artifacts. The full scoring criteria for this anchor standard are [published here](https://docs.google.com/document/d/1UH7kHkx58iO613WmBNepRC3Hb5uDC20o2MeqGkyUqbs/view).
+
 
